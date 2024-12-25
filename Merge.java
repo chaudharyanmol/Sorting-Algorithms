@@ -41,7 +41,7 @@ public class Merge {
         
             int i = 0, j = 0;
 
-            // Initial index of merged subarray array
+          
             int k = l;
             while (i < n1 && j < n2) {
                 if (arr1[i] <= arr2[j]) {
@@ -55,14 +55,14 @@ public class Merge {
                 k++;
             }
     
-            // Copy remaining elements of L[] if any
+    
             while (i < n1) {
                 arr[k] = arr1[i];
                 i++;
                 k++;
             }
     
-            // Copy remaining elements of R[] if any
+           
             while (j < n2) {
                 arr[k] = arr2[j];
                 j++;
